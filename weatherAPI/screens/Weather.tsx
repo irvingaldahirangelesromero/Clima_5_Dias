@@ -1,4 +1,3 @@
-// screens/Weather.tsx
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, FlatList, StyleSheet, View, useWindowDimensions } from 'react-native';
 import WeatherCard from '../Components/WeatherCard';
@@ -67,7 +66,7 @@ const Weather = () => {
     return Array.from(forecastMap.values()).slice(0, 5);
   };
 
-  const containerHeight = height * 0.6; // Ajustar según necesidades
+  const containerHeight = height * 0.6; 
 
   if (loading) {
     return (

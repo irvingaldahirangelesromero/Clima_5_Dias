@@ -1,4 +1,3 @@
-// App.tsx
 import { StyleSheet, View } from 'react-native';
 import Header from '../Components/Header';
 import Footer from '../Components/Foother';

@@ -1,4 +1,3 @@
-// Components/Contenido.tsx
 import { StyleSheet, View } from "react-native";
 import React from "react";
 import Weather from "../screens/Weather";
